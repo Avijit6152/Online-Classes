@@ -1,0 +1,167 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* background-color: rgba(250, 139, 3, 0.589); */
+    
+}
+
+.header {
+    background-color: #fcedaaf5;
+    color: #fa0404;
+    padding: 20px;
+    text-align: center;
+    height: 16rem;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+nav{
+    width: 100%;
+}
+
+#navbarToggleExternalContent{
+    width: 100%;
+    
+}
+
+/* #op{
+    background-color:rgba(240, 248, 255, 0.5);
+} */
+
+
+/* nav  li {
+    display: inline;
+    margin-right: 20px;
+} */
+
+li{
+    color: #fff;
+    text-decoration: none;
+}
+
+.content {
+    padding: 50px;
+}
+
+/* .footer {
+    background-color: #080808;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20%;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    
+} */
+
+/* Custom CSS for footer */
+.footer {
+    background-color: #0c0c0c;
+    color: #fff;
+    padding: 20px 0;
+    margin-top: 10%;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .footer p {
+    margin-bottom: 0;
+  }
+
+  .footer ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+
+  .footer ul li {
+    margin-bottom: 10px;
+  }
+
+  .social-icons {
+    margin-top: 20px;
+  }
+
+  .social-icons a {
+    color: #fff;
+    margin-right: 10px;
+  }
+
+  .card{
+    margin-top: 3%;
+    
+    
+  }
+
+  .wh{
+    
+    color: rgb(255, 0, 200);
+    background-color: rgb(131, 253, 196);
+    margin-top: 1%;
+    height: 15rem;
+  }
+h1{
+    text-align: center;
+    padding-top: 7%;
+}
+
+#f2{
+    margin-top: 2%;
+}
+/* .card-group{
+    background-color:rgba(216, 216, 215, 0.575);
+    
+} */
+  
+#item-1{
+  background-color: burlywood;
+}
+
+#item-1-1{
+  background-color: cadetblue;
+}
+
+#item-1-2{
+  background-color: rgb(165, 252, 93);
+}
+
+#item-2{
+  background-color: rgb(255, 5, 213);
+}
+
+#item-2-1{
+  background-color: rgb(191, 244, 253);
+}
+
+#item-2-2{
+  background-color: rgb(253, 215, 212);
+}
+
+#item-3{
+  background-color: rgb(248, 182, 2);
+}
+
+#item-3-1{
+  background-color: rgb(253, 119, 153);
+}
+
+#item-3-2{
+  background-color: cadetblue;
+}
+
+#item-4{
+  background-color: rgb(252, 214, 2);
+}
+
+#item-4-1{
+  background-color: rgb(248, 162, 3);
+}
+
+#item-4-2{
+  background-color: rgb(250, 102, 171);
+}
