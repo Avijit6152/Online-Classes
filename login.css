@@ -2,12 +2,17 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+   
+    
+}
+
+#bodylogin{
+    background-color: cadetblue;
 }
 
 
 .header {
-    background-color: #fcedaaf5;
+    background-color: #fdec8cf5;
     color: #fa0404;
     
     
@@ -40,7 +45,7 @@ body {
 }
 
 #myBtn:hover {
-  background-color: #555;
+  background-color: #444;
 }
 
 
@@ -59,47 +64,49 @@ li{
     text-decoration: none;
 }
 
-/* .content {
-    padding: 50px;
-} */
+ 
 
 
-/* .nav {
+ .nav {
     background-color: #444;
     color: white;
     padding: 10px;
-    text-align: center;
+    
 }
-*/
+
 .content {
     padding: 50px;
     text-align: center;
+    color: #080808;
+    margin-bottom: 4rem;
+    
 } 
 
+#loginForm{
+    margin-top: 50px;
+}
 
 form {
-    background-color: rgb(226, 223, 17);
+    
+    background-color: rgb(255, 255, 255);
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     display: inline-block;
-    /*max-width: 400px;  Limiting width for better readability */
-    margin: 0 auto; /* Centering the form horizontally */
+    
+    
     width: 40rem;
-    height: 22rem;
+    height: 30rem;
 }
 
-/* Style for labels */
-label {
 
-    font-size: large;
-    font: bold;
+
+label{
     float: left;
-    margin-bottom: 8px;
-    /* display: block; */
+    font: bold;
 }
 
-/* Style for input fields */
+
 input[type="text"],
 input[type="password"] {
     width: 100%;
@@ -107,19 +114,14 @@ input[type="password"] {
     margin-bottom: 20px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    box-sizing: border-box;
 }
 
-.password-icon{
-    position: absolute;
-    right: 10px;
-    top: 10px;
-    cursor: pointer;
-}
+
 /* Style for the submit button */
 input[type="submit"] {
-    background-color: #007bff; /* Blue color */
-    color: white;
+    background-color: #08b103; /* Blue color */
+    color: rgb(253, 253, 253);
     padding: 10px 20px;
     border: none;
     border-radius: 4px;
@@ -135,7 +137,7 @@ input[type="submit"]:hover {
 /* Style for options (Forgot Password? and New User? Sign Up) */
 .options {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 /* Style for links within options */
@@ -226,4 +228,8 @@ input[type="submit"]:hover {
   .social-icons a {
     color: #fff;
     margin-right: 10px;
+  }
+
+  #f2{
+    margin-top: 4%;
   }
